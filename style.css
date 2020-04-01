@@ -4,6 +4,8 @@
   }
 
   body {
+       background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dreamstime.com%2Fmodern-software-development-background-nice-looking-laptop-programm-modern-software-development-background-nice-looking-image138136224&psig=AOvVaw2Fzk_yFJJQnUbYrc_rHs7z&ust=1585828732556000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNjh18WWx-gCFQAAAAAdAAAAABAD");
+    background: url('') no-repeat center center;
     margin: 0;
     padding: 0;
     text-align: left;
@@ -52,8 +54,6 @@
 
   header {
     text-align: center;
-    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dreamstime.com%2Fmodern-software-development-background-nice-looking-laptop-programm-modern-software-development-background-nice-looking-image138136224&psig=AOvVaw2Fzk_yFJJQnUbYrc_rHs7z&ust=1585828732556000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNjh18WWx-gCFQAAAAAdAAAAABAD");
-    background: url('') no-repeat center center;
     background-size: cover;
     border-bottom: #163A5F solid 3px;
     overflow: hidden;

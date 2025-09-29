@@ -1,88 +1,200 @@
-
 <!doctype html>
 <html lang="en">
-<header>
-<meta name="google-site-verification" content="4KB0NR-s-pqJj3asgnxA_6-cJua0fwcWUo1vqmNK7i0" />
-  <nav class="navbar">
-    <div class="brand">
-      <a href="/">Panashe Tapera</a>
+<head>
+  <meta charset="utf-8">
+  <title>Panashe Tapera | PPC & SEO Specialist</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio of Panashe Tapera, a PPC and SEO specialist partnering with agencies and brands to build profitable growth systems.">
+  <meta name="google-site-verification" content="4KB0NR-s-pqJj3asgnxA_6-cJua0fwcWUo1vqmNK7i0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="brand" href="index.html">Panashe Tapera</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links" id="primary-navigation">
+        <li><a href="#home" aria-current="page">Home</a></li>
+        <li><a href="#about">Background</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </div>
+  </header>
 
-    <button class="toggle" aria-label="Toggle navigation">
-      <span class="bar"></span>
-      <span class="bar"></span>
-      <span class="bar"></span>
-    </button>
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <span class="tag">PPC &amp; SEO Specialist</span>
+          <h1>Hey, I&rsquo;m Panashe Tapera.</h1>
+          <p>I simplify, improve, and scale profitable marketing systems for agencies and ambitious brands. With a scientist&rsquo;s curiosity and a marketer&rsquo;s instincts, I turn paid media and organic search into predictable growth engines.</p>
+          <div class="hero-meta">
+            <span>Based in Johannesburg, South Africa</span>
+            <span>4+ years in PPC &amp; SEO leadership</span>
+          </div>
+          <div class="button-group">
+            <a class="btn btn-primary" href="projects.html">Explore my work</a>
+            <a class="btn btn-outline" href="contact.html">Book a consultation</a>
+          </div>
+        </div>
+        <div class="hero-media">
+          <img class="hero-portrait" src="https://miro.medium.com/max/2400/2*bPD7AxaXwiOHHbcqzye4SQ.jpeg" alt="Portrait of Panashe Tapera">
+        </div>
+      </div>
+    </section>
 
-    <ul class="nav-links">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#background">Background</a></li>
-      <li><a href="#goals">Goals</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-</header>
-<script>
-// Mobile nav toggle
-document.addEventListener('DOMContentLoaded', function(){
-  const toggle = document.querySelector('.toggle');
-  const nav = document.querySelector('.nav-links');
-  toggle.addEventListener('click', () => {
-    nav.classList.toggle('open');
-    document.body.classList.toggle('disable-scroll');
-    // Animate burger icon bars
-    toggle.classList.toggle('active');
-  });
-});
-</script>
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="tag">Background</span>
+          <h2>Marketing strategist with a global perspective</h2>
+          <p>From teaching English and travelling across Africa to advising agencies on high-stakes campaigns, I bring real-world insight and data discipline to every engagement.</p>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Full-stack marketer</h3>
+            <p>I&rsquo;ve spent the last four years inside agency teams and in-house squads, owning the full acquisition mix across paid search, display, and technical SEO.</p>
+          </article>
+          <article class="card">
+            <h3>Data-driven creative</h3>
+            <p>Risky ideas are worth backing when they&rsquo;re powered by data. I translate research, analytics, and testing into standout campaigns that resonate and convert.</p>
+          </article>
+          <article class="card">
+            <h3>Collaborative partner</h3>
+            <p>Marketing should feel like a true partnership. I thrive when working alongside agencies that value transparency, experimentation, and measurable outcomes.</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-header">
+          <span class="tag">Services</span>
+          <h2>What I bring to your marketing stack</h2>
+          <p>Whether you need to rescue underperforming ad spend or unlock organic growth, I build systems that make every rand work harder.</p>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Paid search &amp; shopping</h3>
+            <p>Stop wasting budget on Google, Microsoft, and Amazon Ads. I rebuild account structures, revamp creative, and implement ongoing optimisation rhythms.</p>
+            <ul class="skill-list">
+              <li>Display &amp; text ads</li>
+              <li>Shopping feeds</li>
+              <li>Bid strategy</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Technical SEO leadership</h3>
+            <p>Get clean site architecture, precise tracking, and keyword strategies anchored in search intent. I&rsquo;ve led audits with SEMrush, Moz, Screaming Frog, and more.</p>
+            <ul class="skill-list">
+              <li>SEO roadmaps</li>
+              <li>Tag Manager &amp; GA4</li>
+              <li>Content optimisation</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Analytics &amp; insight</h3>
+            <p>From dashboard design to experimentation, I ensure your team makes decisions with clarity. Expect transparent reporting and hypotheses backed by evidence.</p>
+            <ul class="skill-list">
+              <li>Attribution</li>
+              <li>Testing frameworks</li>
+              <li>Actionable dashboards</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
 
-  <body>
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="tag">Selected Work</span>
+          <h2>Recent projects and experiments</h2>
+          <p>A snapshot of how I help agencies and creators create lasting growth advantages. View the full archive on the projects page.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <h3>Tirnanoc Agency growth engine</h3>
+            <p>Refined the agency&rsquo;s acquisition model, balancing paid search with SEO pillars to drive consistent inbound briefs.</p>
+            <div class="project-meta">
+              <span>PPC</span>
+              <span>SEO</span>
+              <span>Agency Ops</span>
+            </div>
+          </article>
+          <article class="project-card">
+            <h3>Shay De Castro brand visibility</h3>
+            <p>Diagnosed reach loss across social and search, then rebuilt creative and targeting to restore momentum for the touring DJ.</p>
+            <div class="project-meta">
+              <span>Growth Strategy</span>
+              <span>Audience Research</span>
+            </div>
+          </article>
+          <article class="project-card">
+            <h3>Performance marketing playbooks</h3>
+            <p>Packaged reusable frameworks for agencies needing quick wins across analytics, copy, and campaign execution.</p>
+            <div class="project-meta">
+              <span>Process Design</span>
+              <span>Automation</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
-    <nav class="main-nav">
-        <ul class="nav">
-          <li class="name">Panashe Tapera</li>
-          <li><a href="#">Home</a></li>
-          <li><a href="projects.html">Tirnanoc</a></li>
-          
-        </ul>
-      </nav>
+    <section class="section">
+      <div class="container">
+        <div class="card" style="text-align:center;">
+          <h3>Let&rsquo;s unlock your next stage of growth</h3>
+          <p>I partner best with marketing agencies and growth-minded brands looking for a strategic operator who can execute. If that sounds like you, let&rsquo;s connect.</p>
+          <div class="button-group" style="justify-content:center;">
+            <a class="btn btn-primary" href="contact.html">Start a project</a>
+            <a class="btn btn-outline" href="mailto:hello@panashetapera.com">Email me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
-    <header>
-      <img src="https://miro.medium.com/max/2400/2*bPD7AxaXwiOHHbcqzye4SQ.jpeg" alt="Panashe Tapera, Full-Stack Developer" class="profile-image">
-      <h1 class="tag name">Panashe Tapera | PPC and SEO Specialist.</h1>
-      <p class="tag location">I'm currently exploring Johannesburg, South Africa and hope to stay here for a while.</p>
-    </header>
+  <footer class="footer">
+    <div class="container footer-inner">
+      <ul class="footer-nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <p>&copy; 2024 Panashe Phineas Tapera. All rights reserved.</p>
+    </div>
+  </footer>
 
-    <main class="flex">
-      <section class="card">
-        <h2 class="card-title">Background</h2>
-        <p>I’m a <a href="https://www.process.st/full-stack-marketer/" target="_blank"><strong>Full-Stack Marketer</strong></a> who loves everything about marketing. I've travelled in lots of different places especially in Africa. I’m excited to bring my life experience to the process of building fantastic web experiences.</p>
-        <p>I’ve been an amateur ping pong player and English teacher and am a self-led learner who's always interested in expanding my skills.</p>
-        <p>Are your paid search campaigns on Google, Microsoft, or Amazon Ads a net negative? That’s a crying shame. I simplify, improve, & increases your PPC advertising and SEO results. Pay-per-click and SEO all I do , so I'm worth every penny. Let’s turn those wasted ad dollars and SEO hours into a positive ROI.</p> 
-        <p>I've been in and around SEO and marketing for 4+ years. I love working with Marketing Agencies. Apart from that, I love writing and data-driven decisions. There's nothing I love more than backing up creative risks with data. Science can be art. It's what draws me to digital marketing.</p>
-      </section>
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const navLinks = document.querySelector('.nav-links');
 
-      <section class="card">
-        <h2 class="card-title">Goals</h2>
-        <p>I want to master the process of building interactive web sites and increase my knowledge, skills and abilities in:</p>
-        <ul class="skills">
-          <li>Display Ads</li>
-          <li>Text Ads</li>
-          <li>Search Ads</li>
-          <li>Tag Manager and Google Analytics</li>
-          <li>HTML/CSS/JavaScript- SEO Implications</li>
-          <li>SEMrush, MozPro, Screamingfrog</li>
-          <li>SEO aka Search Engine Optimisation </li>
-          </ul>
-        <p>I’d  prefer working with marketing agencies</p>
-        <p>If you're looking for a marketing personnel with a scientist's mind, I'd love to learn more about your company.</p>
-      </section>
+    toggle.addEventListener('click', () => {
+      const expanded = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', String(!expanded));
+      navLinks.classList.toggle('open');
+      document.body.classList.toggle('menu-open');
+    });
 
-    </main>
-    <footer>
-        <p class="copyright">Copyright 2024, Panashe Phineas Tapera</p>
-    </footer>
-  </body>
-  </html>
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('open');
+        document.body.classList.remove('menu-open');
+        toggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,1 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Contact | Panashe Tapera</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact Panashe Tapera to discuss PPC and SEO partnerships, marketing audits, and consulting engagements.">
+  <meta name="google-site-verification" content="4KB0NR-s-pqJj3asgnxA_6-cJua0fwcWUo1vqmNK7i0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="brand" href="index.html">Panashe Tapera</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links" id="primary-navigation">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#about">Background</a></li>
+        <li><a href="index.html#services">Services</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </div>
+  </header>
 
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="tag">Let&rsquo;s collaborate</span>
+        <h1>Share your goals &amp; let&rsquo;s build a plan</h1>
+        <p>Fill in the form or reach out directly. I respond within two business days and come prepared with ideas for optimising your PPC and SEO performance.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-grid">
+        <div class="contact-details">
+          <div>
+            <h2>Start the conversation</h2>
+            <p>Tell me about your agency, growth targets, or the campaigns that need a turnaround. I&rsquo;ll follow up with next steps and a suggested roadmap.</p>
+          </div>
+          <a href="mailto:hello@panashetapera.com">hello@panashetapera.com</a>
+          <a href="https://www.linkedin.com/in/panashetapera/" target="_blank" rel="noopener">LinkedIn profile</a>
+          <p><strong>Location:</strong> Johannesburg, South Africa</p>
+        </div>
+
+        <form class="contact-card contact-form" action="https://formsubmit.co/hello@panashetapera.com" method="post">
+          <input type="hidden" name="_subject" value="New enquiry from panashetapera.com">
+          <input type="hidden" name="_captcha" value="false">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" autocomplete="name" required>
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required>
+
+          <label for="company">Company / Agency</label>
+          <input id="company" name="company" type="text" autocomplete="organization">
+
+          <label for="message">How can I help?</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button class="btn btn-primary" type="submit">Send message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <ul class="footer-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <p>&copy; 2024 Panashe Phineas Tapera. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const navLinks = document.querySelector('.nav-links');
+
+    toggle.addEventListener('click', () => {
+      const expanded = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', String(!expanded));
+      navLinks.classList.toggle('open');
+      document.body.classList.toggle('menu-open');
+    });
+
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('open');
+        document.body.classList.remove('menu-open');
+        toggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+  </script>
+</body>
+</html>
